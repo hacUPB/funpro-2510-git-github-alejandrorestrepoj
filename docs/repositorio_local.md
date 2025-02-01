@@ -1,6 +1,6 @@
 # Como crear un repositorio local
 
-Paso 1: Crear un directorio para el repositorio con el uso del comando "mkdir"
+Paso 1 (Opcional): Crear un directorio para el repositorio con el uso del comando "mkdir"
 
 Paso 2: Iniciamos el repositorio de git con el comando "git init"
 
