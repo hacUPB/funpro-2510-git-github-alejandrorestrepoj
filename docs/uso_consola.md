@@ -1,4 +1,4 @@
-# Navegar 
+# Navegar.
 
 ### Comandos basicos:
 
@@ -10,7 +10,7 @@ ls: Ver los archivos y carpetas dentro del directorio actual.
 
 cd: Cambiar de directorio. 
 
-# Crear y editar  
+# Crear y editar. 
 
 ### Comandos basicos: 
 

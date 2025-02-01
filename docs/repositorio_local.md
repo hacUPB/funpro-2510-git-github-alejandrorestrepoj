@@ -1,4 +1,4 @@
-# Como crear un repositorio local
+# Como crear un repositorio local.
 
 Paso 1 (Opcional): Crear un directorio para el repositorio con el uso del comando "mkdir"
 

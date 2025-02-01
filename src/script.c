@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define SIZE 5  // Tamaño de los arreglos
+#define SIZE 6  // Tamaño de los arreglos
 
 int main() {
     int array1[SIZE], array2[SIZE], sumArray[SIZE];

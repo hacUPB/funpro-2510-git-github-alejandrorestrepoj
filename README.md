@@ -2,7 +2,7 @@
 # Bitácora
 
 Nombre del estudiante:  Alejandro Restrepo Jimenez
-Id.: 000323599
+Id.: 000323599.
 
 Descripcion: Este proyecto estara enfocado en el uso de Git y programacion en C. En este proyecto aplicaremos lo enseñado en mi respectiva carrera.
 

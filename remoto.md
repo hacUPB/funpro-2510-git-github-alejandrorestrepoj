@@ -1,4 +1,4 @@
-# Git Ignore - ¿Para que sirve y como usarlo?
+# Git Ignore. - ¿Para que sirve y como usarlo?
 
 "El archivo .gitignore, es un archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto.
 
