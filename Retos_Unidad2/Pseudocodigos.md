@@ -92,8 +92,69 @@ Fin.
 Inicio
 Escribir "Insertar cuantos valores N piensa introducir."
 Leer N
-Escribir "Insertar los valores: "
+Escribir "Insertar C:"
+N = N - 1
+Repetir N veces.
+Si N = 0
 Leer valores.
 cero = 0
 may_cero = 0
 men_cero = 0
+    Si C = 0
+        cero = cero + 1
+        Leer cero
+        Finsi
+    Si C = may_cero 
+        may_cero = may_cero + 1
+        Finsi
+    Si C = men_cero
+        men_cero = men_cero + 1
+        Finsi
+Escribir "La cantidad de valores igual a cero son: ", cero
+Escribir "La cantidad de valores menores a cero son: ", men_cero
+Escribir "La cantidad de valores mayores a cero son: ", may_cero
+Fin
+```
+
+### Problema 7
+
+Inicio
+Dia = 345
+C = 1
+N = 3
+P = N^C
+
+### Problema 8
+
+```
+Inicio
+Escribir "Insertar precio_total"
+Leer precio_total
+Si precio_total >= 200
+    D = precio_total * 0.15
+    Imprimir D
+    precio_total = precio_total - D
+    Imprimir precio_total
+    Fin si
+Si precio_total > 100
+    D = precio_total * 0.12
+    Imprimir D
+    precio_total = precio_total - D
+    Imprimir precio_total
+    Fin si
+Si precio_total > 0
+    D = precio_total * 0.1
+    Imprimir D
+    precio_total = precio_total - D
+    Imprimir precio_total
+    Fin si
+Escribir "El descuento es: ", D
+Escribir "El precio final con el descuento es: ", precio_total
+Fin
+```
+
+### Problema 9
+
+Inicio
+Escribir "Insertar X repeticiones"
+Leer X
