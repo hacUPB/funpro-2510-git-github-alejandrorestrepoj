@@ -52,13 +52,13 @@ Leer adia, ames, aaño.
 Si dia = diaa, mes = ames
     Escribir "¡Feliz cumpleaños!"
     Edad = aaño - año
-    Finsi
-Si (mes < ames) o (mes = ames y dia <> adia)
+    Fin si
+Si (mes < ames) o (mes = ames y dia < adia)
     Edad = aaño - año - 1
-    Finsi
+    Fin si
 Si
     Edad = aaño - año
-    Finsi
+    Fin si
 Imprimir Edad
 Escribir "Tu edad actual es: ", Edad
 Fin
@@ -103,13 +103,13 @@ men_cero = 0
     Si C = 0
         cero = cero + 1
         Leer cero
-        Finsi
+        Fin si
     Si C = may_cero 
         may_cero = may_cero + 1
-        Finsi
+        Fin si
     Si C = men_cero
         men_cero = men_cero + 1
-        Finsi
+        Fin si
 Escribir "La cantidad de valores igual a cero son: ", cero
 Escribir "La cantidad de valores menores a cero son: ", men_cero
 Escribir "La cantidad de valores mayores a cero son: ", may_cero
