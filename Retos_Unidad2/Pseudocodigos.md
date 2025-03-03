@@ -118,11 +118,19 @@ Fin
 
 ### Problema 7
 
+```
 Inicio
-Dia = 345
-C = 1
-N = 3
-P = N^C
+Aho_Dia = 3
+T_Dia = 0
+Si Dia =<365
+    Aho_Dia = 3^Dia 
+    T_Dia = T_Dia + Aho_Dia
+    Imprimir Dia
+    Dia = Dia + 1
+Fin si
+Imprimir: "El total ahorrado al final del año es: ", T_Dia    
+Fin
+```
 
 ### Problema 8
 
@@ -156,5 +164,33 @@ Fin
 ### Problema 9
 
 Inicio
-Escribir "Insertar X repeticiones"
+Escribir "Insertar el valor de X que queremos calcular."
 Leer X
+Escribir "Insertar el valor de N repeticiones"
+Leer N
+sin_x = 0
+Si N > 0
+    Termino = ((-1)^N * x^(2*N + 1)) / Factorial(2*N + 1)
+    sin_x = sin_x + Termino
+    Imprimir Termino
+    N - 1
+Fin si 
+Imprimir "La aproximacion de x con N: ", N, "terminos es: ", X 
+Fin
+
+### Problema 10
+
+Inicio
+Escribir "Insertar el valor de X que queremos calcular."
+Leer X
+Escribir "Insertar el valor de N repeticiones"
+Leer N
+e^x = 0
+Si N > 0
+    Termino = x^N / Factorial(N)
+    e^x = e^x + Termino
+    Imprimir Termino
+    N - 1 
+Fin si 
+Imprimir "La aproximacion de x con N: ", N, "terminos es: ", X 
+Fin
