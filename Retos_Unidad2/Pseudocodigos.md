@@ -163,6 +163,7 @@ Fin
 
 ### Problema 9
 
+```
 Inicio
 Escribir "Insertar el valor de X que queremos calcular."
 Leer X
@@ -177,6 +178,7 @@ Si N > 0
 Fin si 
 Imprimir "La aproximacion de x con N: ", N, "terminos es: ", X 
 Fin
+```
 
 ### Problema 10
 
