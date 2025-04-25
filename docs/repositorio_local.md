@@ -2,7 +2,11 @@
 
 Paso 1 (Opcional): Crear un directorio para el repositorio con el uso del comando "mkdir"
 
+![Rep_Local1](/images/Rep_Local1)
+
 Paso 2: Iniciamos el repositorio de git con el comando "git init"
+
+![Rep_Local2](/images/Rep_Local2)
 
 Paso 3: Agregar archivos al repositorio. Pueden ser desde archivos de texto como "file1.txt" hasta archivos como "README.md"
 
